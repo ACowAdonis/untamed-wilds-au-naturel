@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"axis=y":  { "model": "untamedwilds:block/shark_meat" },
+		"axis=z":   { "model": "untamedwilds:block/shark_meat", "x": 90 },
+		"axis=x":   { "model": "untamedwilds:block/shark_meat", "x": 90, "y": 90 }
+	}
+}

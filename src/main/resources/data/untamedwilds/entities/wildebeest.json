@@ -1,0 +1,44 @@
+{
+  "name":"wildebeest",
+  "breeding":"MID_SUMMER",
+  "growing_time":8,
+  "offspring":2,
+  "sounds":{
+    "ambient":"untamedwilds:entity.wildebeest.ambient",
+    "hurt":"untamedwilds:entity.wildebeest.hurt",
+    "death":"untamedwilds:entity.wildebeest.death"
+  },
+  "flags":{
+    "groupCount":4
+  },
+  "species":[
+    {
+      "name":"black",
+      "variant":0,
+      "scale":1.0,
+      "rarity":6,
+      "activityType":"diurnal",
+      "favourite_food":"minecraft:grass",
+      "flags":{
+        "groupCount":4
+      },
+      "spawnBiomes":[
+        [ "tag|is_savanna" ]
+      ]
+    },
+    {
+      "name":"blue",
+      "variant":1,
+      "scale":1.0,
+      "rarity":6,
+      "activityType":"diurnal",
+      "favourite_food":"minecraft:grass",
+      "flags":{
+        "groupCount":4
+      },
+      "spawnBiomes":[
+        [ "tag|is_savanna" ]
+      ]
+    }
+  ]
+}

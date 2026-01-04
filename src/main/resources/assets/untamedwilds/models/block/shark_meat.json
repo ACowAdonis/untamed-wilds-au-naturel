@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"end": "untamedwilds:block/shark_meat_top",
+		"side": "untamedwilds:block/shark_meat"
+	}
+}

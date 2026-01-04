@@ -1,0 +1,7 @@
+{
+    "parent": "untamedwilds:block/decor_carpet",
+    "textures": {
+        "all": "untamedwilds:block/carpet/ashen",
+        "particle": "untamedwilds:block/carpet/ashen"
+    }
+}

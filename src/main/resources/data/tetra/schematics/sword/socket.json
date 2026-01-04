@@ -1,0 +1,30 @@
+{
+    "replace":false,
+    "slots":[
+        "sword/guard"
+    ],
+    "materialSlotCount":1,
+    "displayType":"minor",
+    "glyph":{
+        "textureX":80,
+        "textureY":16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": ["untamedwilds:material_pearl"]
+            },
+            "experienceCost": 3,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/pearl"
+        },
+		{
+            "material": {
+                "items": ["untamedwilds:material_giant_pearl"]
+            },
+            "experienceCost": 3,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/pristine_pearl"
+        }
+    ]
+}

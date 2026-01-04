@@ -1,0 +1,94 @@
+{
+  "name":"sawfish",
+  "breeding":"MID_SUMMER",
+  "growing_time":7,
+  "offspring":3,
+  "activityType":"nocturnal",
+  "favourite_food":"untamedwilds:chum",
+  "sounds":{
+
+  },
+  "species":[
+    {
+      "name":"dwarf",
+      "variant":0,
+      "scale":0.7,
+      "rarity":1,
+      "attack":8,
+      "health":30,
+      "flags":{
+        "bottomDweller":1
+      },
+      "spawnBiomes":[
+        [ "resource|minecraft:warm_ocean" ],
+        [ "resource|minecraft:lukewarm_ocean" ],
+        [ "resource|minecraft:mangrove_swamp" ]
+      ]
+    },
+    {
+      "name":"green",
+      "variant":1,
+      "scale":1.4,
+      "rarity":2,
+      "attack":14,
+      "health":45,
+      "flags":{
+        "bottomDweller":1
+      },
+      "spawnBiomes":[
+        [ "resource|minecraft:warm_ocean" ],
+        [ "resource|minecraft:lukewarm_ocean" ],
+        [ "resource|minecraft:mangrove_swamp" ]
+      ]
+    },
+    {
+      "name":"large_tooth",
+      "variant":2,
+      "scale":1.3,
+      "rarity":4,
+      "attack":10,
+      "health":40,
+      "flags":{
+        "bottomDweller":0
+      },
+      "spawnBiomes":[
+        [ "resource|minecraft:warm_ocean" ],
+        [ "resource|minecraft:lukewarm_ocean" ],
+        [ "resource|minecraft:mangrove_swamp" ]
+      ]
+    },
+    {
+      "name":"narrow",
+      "variant":3,
+      "scale":0.8,
+      "rarity":1,
+      "attack":8,
+      "health":30,
+      "flags":{
+        "bottomDweller":1,
+        "shortFins":1
+      },
+      "spawnBiomes":[
+        [ "resource|minecraft:warm_ocean" ],
+        [ "resource|minecraft:lukewarm_ocean" ],
+        [ "resource|minecraft:mangrove_swamp" ]
+      ]
+    },
+    {
+      "name":"small_tooth",
+      "variant":4,
+      "scale":1,
+      "rarity":2,
+      "attack":16,
+      "health":50,
+      "flags":{
+        "bottomDweller":0
+      },
+      "spawnBiomes":[
+        [ "resource|minecraft:warm_ocean" ],
+        [ "resource|minecraft:lukewarm_ocean" ],
+        [ "resource|minecraft:mangrove_swamp" ]
+      ]
+    }
+  ]
+}

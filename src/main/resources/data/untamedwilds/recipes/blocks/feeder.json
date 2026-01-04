@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "x"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "x": {
+      "item": "minecraft:flower_pot"
+    }
+  },
+  "result": {
+    "item": "untamedwilds:feeder",
+    "count": 1
+  }
+}

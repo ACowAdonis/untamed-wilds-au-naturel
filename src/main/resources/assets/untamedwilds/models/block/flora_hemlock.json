@@ -1,0 +1,57 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"render_type": "cutout",
+	"textures": {
+		"0": "untamedwilds:block/flora/hemlock_stem",
+		"3": "untamedwilds:block/flora/hemlock_2",
+		"4": "untamedwilds:block/flora/hemlock_2",
+		"particle": "untamedwilds:block/flora/hemlock_2"
+	},
+	"elements": [
+		{
+			"name": "stem_1",
+			"from": [-4, 0, 8],
+			"to": [20, 16, 8],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [2, 8, 13.5, 16], "texture": "#0"},
+				"south": {"uv": [2, 8, 13.5, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "stem_2",
+			"from": [8, 0, -4],
+			"to": [8, 16, 20],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"east": {"uv": [2, 8, 13.5, 16], "texture": "#0"},
+				"west": {"uv": [2, 8, 13.5, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "leaves_3",
+			"from": [-8, 12, -8],
+			"to": [24, 12, 24],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#4"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "stem",
+			"origin": [8, 0, 8],
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "leaves",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [2, 3]
+		}
+	]
+}

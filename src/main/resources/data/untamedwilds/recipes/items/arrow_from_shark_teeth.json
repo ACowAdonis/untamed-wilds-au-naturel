@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "B",
+    "#"
+  ],
+  "key": {
+    "A": {
+      "item": "untamedwilds:material_shark_tooth"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "tag": "forge:feathers"
+    }
+  },
+  "result": {
+    "item": "minecraft:arrow",
+    "count": 4
+  }
+}

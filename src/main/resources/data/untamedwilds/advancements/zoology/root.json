@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "untamedwilds:logo"
+    },
+    "title": {
+      "translate": "advancements.untamedwilds.zoologist.title"
+    },
+    "description": {
+      "translate": "advancements.untamedwilds.zoologist.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "encyclopedia_of_life": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "patchouli:guide_book",
+            "nbt": "{\"patchouli:book\":\"untamedwilds:encyclopedia_of_life\"}"
+          }
+        ]
+      }
+    },
+    "patchouli_not_loaded": {
+      "trigger": "untamedwilds:guidebook_alt"
+    }
+  },
+  "requirements": [
+    [
+      "encyclopedia_of_life",
+      "patchouli_not_loaded"
+    ]
+  ]
+}

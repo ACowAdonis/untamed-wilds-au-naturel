@@ -1,0 +1,33 @@
+{
+  "parent": "untamedwilds:zoology/root",
+  "display": {
+    "icon": {
+      "item": "untamedwilds:egg_spitter"
+    },
+    "title": {
+      "translate": "advancements.untamedwilds.discovered_spitter.title"
+    },
+    "description": {
+      "translate": "advancements.untamedwilds.discovered_spitter.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "discover_spitter": {
+      "trigger": "untamedwilds:discovered",
+      "conditions": {
+        "entity": {
+          "type": "untamedwilds:spitter"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "discover_spitter"
+    ]
+  ]
+}

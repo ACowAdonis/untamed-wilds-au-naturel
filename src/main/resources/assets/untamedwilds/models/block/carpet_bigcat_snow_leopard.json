@@ -1,0 +1,7 @@
+{
+    "parent": "untamedwilds:block/decor_carpet",
+    "textures": {
+        "all": "untamedwilds:block/carpet/bigcat_snow_leopard",
+        "particle": "untamedwilds:block/carpet/bigcat_snow_leopard"
+    }
+}

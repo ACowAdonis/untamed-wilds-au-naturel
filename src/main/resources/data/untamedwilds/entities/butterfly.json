@@ -1,0 +1,219 @@
+{
+  "name":"butterfly",
+  "breeding":"EARLY_SUMMER",
+  "growing_time":4,
+  "offspring":4,
+  "favourite_food":"minecraft:dandelion",
+  "sounds":{
+  },
+  "flags":{
+    "dimorphism": 0
+  },
+  "species":[
+    {
+      "name":"birdwing",
+      "variant":0,
+      "scale":1,
+      "rarity":1,
+      "spawnBiomes":[
+        [ "tag|is_jungle" ]
+      ]
+    },
+    {
+      "name":"blue_swallowtail",
+      "variant":1,
+      "scale":0.8,
+      "rarity":5,
+      "spawnBiomes":[
+        [ "resource|minecraft:meadow" ]
+      ]
+    },
+    {
+      "name":"brimstone",
+      "variant":2,
+      "scale":0.8,
+      "rarity":3,
+      "flags": {
+        "dimorphism": 1
+      },
+      "spawnBiomes":[
+        [ "tag|is_forest" ],
+        [ "tag|is_swamp" ],
+        [ "tag|is_taiga" ]
+      ]
+    },
+    {
+      "name":"cabbage",
+      "variant":3,
+      "scale":0.7,
+      "rarity":5,
+      "spawnBiomes":[
+        [ "tag|is_mountain" ],
+        [ "tag|is_plains" ]
+      ]
+    },
+    {
+      "name":"comma",
+      "variant":4,
+      "scale":0.7,
+      "rarity":3,
+      "skins": 20,
+      "spawnBiomes":[
+        [ "tag|is_forest" ],
+        [ "tag|is_taiga" ]
+      ]
+    },
+    {
+      "name":"emperor",
+      "variant":5,
+      "scale":0.8,
+      "rarity":1,
+      "flags": {
+        "dimorphism": 1
+      },
+      "spawnBiomes":[
+        [ "tag|is_forest" ],
+        [ "tag|is_taiga" ]
+      ]
+    },
+    {
+      "name":"glasswing",
+      "variant":6,
+      "scale":0.7,
+      "rarity":3,
+      "spawnBiomes":[
+        [ "tag|is_jungle" ]
+      ]
+    },
+    {
+      "name":"kite",
+      "variant":7,
+      "scale":0.8,
+      "rarity":3,
+      "spawnBiomes":[
+        [ "tag|is_jungle" ],
+        [ "tag|is_swamp" ]
+      ]
+    },
+    {
+      "name":"leaf",
+      "variant":8,
+      "scale":1,
+      "rarity":3,
+      "spawnBiomes":[
+        [ "tag|is_jungle" ]
+      ]
+    },
+    {
+      "name":"malachite",
+      "variant":9,
+      "scale":1,
+      "rarity":3,
+      "spawnBiomes":[
+        [ "tag|is_jungle" ]
+      ]
+    },
+    {
+      "name":"monarch",
+      "variant":10,
+      "scale":0.8,
+      "rarity":3,
+      "spawnBiomes":[
+        [ "tag|is_forest" ],
+        [ "tag|is_plains" ]
+      ]
+    },
+    {
+      "name":"morpho",
+      "variant":11,
+      "scale":1,
+      "rarity":3,
+      "spawnBiomes":[
+        [ "tag|is_jungle" ]
+      ]
+    },
+    {
+      "name":"mourning_cloak",
+      "variant":12,
+      "scale":0.8,
+      "rarity":3,
+      "spawnBiomes":[
+        [ "tag|is_forest" ],
+        [ "tag|is_taiga" ]
+      ]
+    },
+    {
+      "name":"narcissus",
+      "variant":13,
+      "scale":0.8,
+      "rarity":3,
+      "skins": 20,
+      "spawnBiomes":[
+        [ "tag|is_jungle" ]
+      ]
+    },
+    {
+      "name":"orange_tip",
+      "variant":14,
+      "scale":0.7,
+      "rarity":3,
+      "flags": {
+        "dimorphism": 1
+      },
+      "spawnBiomes":[
+        [ "tag|is_plains" ],
+        [ "tag|is_forest" ],
+        [ "tag|is_taiga" ]
+      ]
+    },
+    {
+      "name":"peacock",
+      "variant":15,
+      "scale":0.7,
+      "rarity":3,
+      "spawnBiomes":[
+        [ "tag|is_forest" ],
+        [ "tag|is_plains" ]
+      ]
+    },
+    {
+      "name":"red_admiral",
+      "variant":16,
+      "scale":0.7,
+      "rarity":3,
+      "spawnBiomes":[
+        [ "tag|is_forest" ],
+        [ "tag|is_swamp" ]
+      ]
+    },
+    {
+      "name":"speckled_wood",
+      "variant":17,
+      "scale":0.7,
+      "rarity":3,
+      "spawnBiomes":[
+        [ "tag|is_forest" ],
+        [ "tag|is_taiga" ]
+      ]
+    },
+    {
+      "name":"tiger_swallowtail",
+      "variant":18,
+      "scale":1,
+      "rarity":3,
+      "spawnBiomes":[
+        [ "tag|is_forest" ],
+        [ "tag|is_plains" ]
+      ]
+    },
+    {
+      "name":"triangle",
+      "variant":19,
+      "scale":0.8,
+      "rarity":3,
+      "spawnBiomes":[
+        [ "tag|is_jungle" ]
+      ]
+    }
+  ]
+}

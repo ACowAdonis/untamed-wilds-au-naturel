@@ -1,0 +1,29 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "untamedwilds:item/spawn/bottle_butterfly_monarch"
+    },
+
+    "overrides":[
+        {"predicate": {"custom_model_data":0}, "model":"untamedwilds:item/entity/bottle_butterfly_birdwing"},
+        {"predicate": {"custom_model_data":1}, "model":"untamedwilds:item/entity/bottle_butterfly_blue_swallowtail"},
+        {"predicate": {"custom_model_data":2}, "model":"untamedwilds:item/entity/bottle_butterfly_brimstone"},
+        {"predicate": {"custom_model_data":3}, "model":"untamedwilds:item/entity/bottle_butterfly_cabbage"},
+        {"predicate": {"custom_model_data":4}, "model":"untamedwilds:item/entity/bottle_butterfly_comma"},
+        {"predicate": {"custom_model_data":5}, "model":"untamedwilds:item/entity/bottle_butterfly_emperor"},
+        {"predicate": {"custom_model_data":6}, "model":"untamedwilds:item/entity/bottle_butterfly_glasswing"},
+        {"predicate": {"custom_model_data":7}, "model":"untamedwilds:item/entity/bottle_butterfly_kite"},
+        {"predicate": {"custom_model_data":8}, "model":"untamedwilds:item/entity/bottle_butterfly_leaf"},
+        {"predicate": {"custom_model_data":9}, "model":"untamedwilds:item/entity/bottle_butterfly_malachite"},
+        {"predicate": {"custom_model_data":10}, "model":"untamedwilds:item/entity/bottle_butterfly_monarch"},
+        {"predicate": {"custom_model_data":11}, "model":"untamedwilds:item/entity/bottle_butterfly_morpho"},
+        {"predicate": {"custom_model_data":12}, "model":"untamedwilds:item/entity/bottle_butterfly_mourning_cloak"},
+        {"predicate": {"custom_model_data":13}, "model":"untamedwilds:item/entity/bottle_butterfly_narcissus"},
+        {"predicate": {"custom_model_data":14}, "model":"untamedwilds:item/entity/bottle_butterfly_orange_tip"},
+        {"predicate": {"custom_model_data":15}, "model":"untamedwilds:item/entity/bottle_butterfly_peacock"},
+        {"predicate": {"custom_model_data":16}, "model":"untamedwilds:item/entity/bottle_butterfly_red_admiral"},
+        {"predicate": {"custom_model_data":17}, "model":"untamedwilds:item/entity/bottle_butterfly_speckled_wood"},
+        {"predicate": {"custom_model_data":18}, "model":"untamedwilds:item/entity/bottle_butterfly_tiger_swallowtail"},
+        {"predicate": {"custom_model_data":19}, "model":"untamedwilds:item/entity/bottle_butterfly_triangle"}
+    ]
+}

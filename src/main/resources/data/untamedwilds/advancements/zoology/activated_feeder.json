@@ -1,0 +1,28 @@
+{
+  "parent": "untamedwilds:zoology/root",
+  "display": {
+    "icon": {
+      "item": "untamedwilds:feeder"
+    },
+    "title": {
+      "translate": "advancements.untamedwilds.activated_feeder.title"
+    },
+    "description": {
+      "translate": "advancements.untamedwilds.activated_feeder.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "activated_feeder": {
+      "trigger": "untamedwilds:activated_feeder"
+    }
+  },
+  "requirements": [
+    [
+      "activated_feeder"
+    ]
+  ]
+}

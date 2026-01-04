@@ -1,0 +1,35 @@
+{
+  "parent": "untamedwilds:zoology/root",
+  "display": {
+    "icon": {
+      "item": "untamedwilds:food_hakarl"
+    },
+    "title": {
+      "translate": "advancements.untamedwilds.icelandic_delight.title"
+    },
+    "description": {
+      "translate": "advancements.untamedwilds.icelandic_delight.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_hakarl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:food_hakarl"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_hakarl"
+    ]
+  ]
+}

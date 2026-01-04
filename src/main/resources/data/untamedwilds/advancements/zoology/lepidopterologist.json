@@ -1,0 +1,262 @@
+{
+  "parent": "untamedwilds:zoology/activated_feeder",
+  "display": {
+    "icon": {
+      "item": "untamedwilds:bottle_butterfly"
+    },
+    "title": {
+      "translate": "advancements.untamedwilds.lepidopterologist.title"
+    },
+    "description": {
+      "translate": "advancements.untamedwilds.lepidopterologist.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "butterfly_birdwing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:0}"
+          }
+        ]
+      }
+    },
+    "butterfly_blue_swallowtail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:1}"
+          }
+        ]
+      }
+    },
+    "butterfly_brimstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:2}"
+          }
+        ]
+      }
+    },
+    "butterfly_cabbage": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:3}"
+          }
+        ]
+      }
+    },
+    "butterfly_comma": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:4}"
+          }
+        ]
+      }
+    },
+    "butterfly_emperor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:5}"
+          }
+        ]
+      }
+    },
+    "butterfly_glasswing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:6}"
+          }
+        ]
+      }
+    },
+    "butterfly_kite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:7}"
+          }
+        ]
+      }
+    },
+    "butterfly_leaf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:8}"
+          }
+        ]
+      }
+    },
+    "butterfly_malachite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:9}"
+          }
+        ]
+      }
+    },
+    "butterfly_monarch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:10}"
+          }
+        ]
+      }
+    },
+    "butterfly_morpho": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:11}"
+          }
+        ]
+      }
+    },
+    "butterfly_mourning_cloak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:12}"
+          }
+        ]
+      }
+    },
+    "butterfly_narcissus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:13}"
+          }
+        ]
+      }
+    },
+    "butterfly_orange_tip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:14}"
+          }
+        ]
+      }
+    },
+    "butterfly_peacock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:15}"
+          }
+        ]
+      }
+    },
+    "butterfly_red_admiral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:16}"
+          }
+        ]
+      }
+    },
+    "butterfly_speckled_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:17}"
+          }
+        ]
+      }
+    },
+    "butterfly_tiger_swallowtail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:18}"
+          }
+        ]
+      }
+    },
+    "butterfly_triangle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["untamedwilds:bottle_butterfly"],
+            "nbt": "{CustomModelData:19}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [ "butterfly_birdwing" ],
+    [ "butterfly_blue_swallowtail" ],
+    [ "butterfly_brimstone" ],
+    [ "butterfly_cabbage" ],
+    [ "butterfly_comma" ],
+    [ "butterfly_emperor" ],
+    [ "butterfly_glasswing" ],
+    [ "butterfly_kite" ],
+    [ "butterfly_leaf" ],
+    [ "butterfly_malachite" ],
+    [ "butterfly_monarch" ],
+    [ "butterfly_morpho" ],
+    [ "butterfly_mourning_cloak" ],
+    [ "butterfly_narcissus" ],
+    [ "butterfly_orange_tip" ],
+    [ "butterfly_peacock" ],
+    [ "butterfly_red_admiral" ],
+    [ "butterfly_speckled_wood" ],
+    [ "butterfly_tiger_swallowtail" ],
+    [ "butterfly_triangle" ]
+  ]
+}
