@@ -43,9 +43,7 @@ public class SyncTextureData {
          .enqueueWork(
             () -> {
                EntityType<?> type = (EntityType<?>)ForgeRegistries.ENTITY_TYPES.getValue(this.entityName);
-               if (!ComplexMob.CLIENT_DATA_HASH.containsKey(type)) {
-                  ComplexMob.CLIENT_DATA_HASH.put(type, new EntityDataHolderClient(new HashMap<>(), new HashMap<>()));
-               }
+               ComplexMob.CLIENT_DATA_HASH.computeIfAbsent(type, k -> new EntityDataHolderClient(new HashMap<>(), new HashMap<>()));
 
                EntityUtils.buildSkinArrays(
                   this.entityName.getPath(), this.speciesName, this.skinsData, this.id, ComplexMob.TEXTURES_COMMON, ComplexMob.TEXTURES_RARE

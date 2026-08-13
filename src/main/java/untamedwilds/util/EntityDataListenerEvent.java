@@ -74,11 +74,9 @@ public class EntityDataListenerEvent {
       processSkins(dataIn, typeIn.builtInRegistryHolder().key().location().getPath());
 
       for (SpeciesDataHolder speciesData : ComplexMob.ENTITY_DATA_HASH.get(typeIn).getSpeciesData()) {
-         if (!ComplexMob.CLIENT_DATA_HASH.containsKey(typeIn)) {
-            ComplexMob.CLIENT_DATA_HASH.put(typeIn, new EntityDataHolderClient(new HashMap<>(), new HashMap<>()));
-         }
-
-         ComplexMob.CLIENT_DATA_HASH.get(typeIn).species_data.put(speciesData.getVariant(), speciesData.getName());
+         ComplexMob.CLIENT_DATA_HASH
+            .computeIfAbsent(typeIn, k -> new EntityDataHolderClient(new HashMap<>(), new HashMap<>()))
+            .species_data.put(speciesData.getVariant(), speciesData.getName());
       }
    }
 

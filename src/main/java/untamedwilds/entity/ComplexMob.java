@@ -2,6 +2,7 @@ package untamedwilds.entity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.concurrent.ConcurrentHashMap;
 import javax.annotation.Nullable;
 import javax.annotation.ParametersAreNonnullByDefault;
 import net.minecraft.MethodsReturnNonnullByDefault;
@@ -73,8 +74,8 @@ public abstract class ComplexMob extends TamableAnimal {
    public float turn_speed = 1.0F;
    public int huntingCooldown;
    public int retaliationCooldown;
-   public static HashMap<EntityType<?>, EntityDataHolder> ENTITY_DATA_HASH = new HashMap<>();
-   public static HashMap<EntityType<?>, EntityDataHolderClient> CLIENT_DATA_HASH = new HashMap<>();
+   public static ConcurrentHashMap<EntityType<?>, EntityDataHolder> ENTITY_DATA_HASH = new ConcurrentHashMap<>();
+   public static ConcurrentHashMap<EntityType<?>, EntityDataHolderClient> CLIENT_DATA_HASH = new ConcurrentHashMap<>();
 
    public ComplexMob(EntityType<? extends ComplexMob> type, Level worldIn) {
       super(type, worldIn);
